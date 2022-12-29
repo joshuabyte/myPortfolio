@@ -11,3 +11,24 @@
   --gray: #d9d9d9;
   --white: #ffffff;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+header{
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  background-color: var(--warm-black);
+  text-align: center;
+}
+
+.header-logo{
+  width: 50px;
+  margin: 20px 0px;
+}
