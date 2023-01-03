@@ -83,7 +83,7 @@ header {
   margin-bottom: 20px;
 }
 
-.hero-cta-btn {
+.contact-cta-btn {
   text-decoration: none;
   color: var(--white);
   font-size: 1.5rem;
@@ -91,14 +91,14 @@ header {
   letter-spacing: 2px;
 }
 
-.hero-cta-btn u {
+.contact-cta-btn u {
   text-decoration: underline;
   -webkit-text-decoration-color: var(--emerald-green);
   text-decoration-color: var(--emerald-green);
   -webkit-text-underline-offset: 9px;
   -moz-text-underline-offset: 9px;
   text-underline-offset: 9px;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 1.5px;
 }
 
 .separation-line {
@@ -162,4 +162,67 @@ main {
   min-width: 320px;
   background-color: var(--warm-black);
   height: auto;
+  padding: 20px;
+}
+
+.projects-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projects-title-container h2 {
+  color: var(--white);
+  font-size: 3.3rem;
+  font-weight: 600;
+}
+
+.projects-grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 25px;
+  place-content: center;
+  place-items: center;
+  margin: 0 auto;
+}
+
+.project-card{
+  margin-top: 40px;
+}
+
+.project-card .project-image{
+  width: 280px;
+}
+
+.project-card h3 {
+  color: var(--white);
+  font-size: 1.85rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: var(--gray);
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.project-cta-btn {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-right: 20px;
+}
+
+.project-cta-btn u {
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--emerald-green);
+  text-decoration-color: var(--emerald-green);
+  -webkit-text-underline-offset: 9px;
+  -moz-text-underline-offset: 9px;
+  text-underline-offset: 9px;
+  text-decoration-thickness: 1.5px;
 }
