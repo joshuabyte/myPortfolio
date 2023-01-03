@@ -18,9 +18,11 @@ html {
 
 body {
   font-family: "Space Grotesk", sans-serif;
+  /* Setting the background color of the body to the value of the variable `--warm-black` */
+  background-color: var(--warm-black);
 }
 
-header{
+header {
   width: 100%;
   min-width: 320px;
   height: auto;
@@ -28,7 +30,136 @@ header{
   text-align: center;
 }
 
-.header-logo{
-  width: 50px;
+.header-logo {
+  width: 45px;
   margin: 20px 0px;
+}
+
+.nav-social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-social-links a > .fa-brands {
+  margin: 0 10px 0;
+  font-size: 1.85rem;
+  color: var(--white);
+}
+
+.pp-image {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.hero-info-container {
+  color: var(--white);
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.hero-info-container h1 {
+  font-size: 3.3rem;
+  /* width: 300px; */
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.hero-info-container h1 > u {
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--emerald-green);
+  text-decoration-color: var(--emerald-green);
+  -webkit-text-underline-offset: 9px;
+  -moz-text-underline-offset: 9px;
+  text-underline-offset: 9px;
+}
+
+.hero-info-container .hero-description {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  max-width: 350px;
+  margin: 0 auto;
+  color: var(--gray);
+  margin-bottom: 20px;
+}
+
+.hero-cta-btn {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.hero-cta-btn u {
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--emerald-green);
+  text-decoration-color: var(--emerald-green);
+  -webkit-text-underline-offset: 9px;
+  -moz-text-underline-offset: 9px;
+  text-underline-offset: 9px;
+  text-decoration-thickness: 3px;
+}
+
+.separation-line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--white);
+  margin-top: 80px;
+}
+
+.separation-line-experience {
+  width: 100%;
+  height: 1px;
+  background-color: var(--white);
+  margin-top: 40px;
+}
+
+main {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+}
+
+.experience {
+  background-color: var(--warm-black);
+  padding: 20px;
+}
+
+.experience-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 180px);
+  gap: 25px;
+  place-content: center;
+  place-items: center;
+  margin: 0 auto;
+}
+
+.experience-tool-container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.experience .experience-tool-container h3 {
+  color: var(--white);
+  font-size: 1.5rem;
+}
+
+.experience .experience-tool-container p {
+  color: var(--gray);
+  font-size: 1.5rem;
+}
+
+.experience .experience-tool-container > .fa-brands {
+  color: var(--white);
+  font-size: 7rem;
+  margin-bottom: 8px;
+}
+
+.projects {
+  width: 100%;
+  min-width: 320px;
+  background-color: var(--warm-black);
+  height: auto;
 }
