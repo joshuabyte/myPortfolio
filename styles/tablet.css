@@ -1,0 +1,106 @@
+header {
+  padding: 40px 40px 10px;
+}
+
+.navbar-container {
+  display: flex;
+  /* padding: 30px; */
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.header-logo {
+  width: 55px;
+}
+
+.nav-social-links a > .fa-brands {
+  font-size: 2.25rem;
+}
+
+.header-hero-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.pp-image {
+  width: 290px;
+}
+
+.hero-info-container {
+  text-align: start;
+  margin: 0;
+  margin-right: auto;
+}
+
+.hero-info-container h1 {
+  font-size: 5rem;
+  width: 400px;
+  margin: 0 0 45px 0;
+}
+
+.hero-info-container h1 > u {
+  text-underline-offset: 12px;
+}
+
+.hero-info-container .hero-description {
+  font-size: 1.6rem;
+  margin: 0 0 45px 0;
+}
+
+.separation-line {
+  margin-top: 0;
+}
+
+.experience {
+  padding: 20px 40px 20px;
+}
+
+.experience-grid-container {
+  grid-template-columns: repeat(auto-fill, 150px);
+}
+
+.experience .experience-tool-container > .fa-brands {
+  font-size: 7.75rem;
+}
+
+.projects {
+  padding: 20px 40px 80px;
+}
+
+.projects-title-container h2 {
+  font-size: 5rem;
+}
+
+.project-card .project-image {
+  width: 300px;
+}
+
+.personal-contact {
+  padding: 50px 40px;
+}
+
+.personal-contact-title h2 {
+  font-size: 5rem;
+}
+
+.personal-contact-title p {
+    font-size: 1.6rem;
+}
+
+.footer-container {
+  padding: 0 40px 50px;
+}
+
+.footer-logo {
+  width: 55px;
+}
+
+.footer-social-links a > .fa-brands {
+  font-size: 2.25rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
