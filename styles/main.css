@@ -14,6 +14,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -301,7 +302,7 @@ main {
   text-decoration-thickness: 1.5px;
 }
 
-.separation-line-contact{
+.separation-line-contact {
   width: 100%;
   height: 1px;
   background-color: var(--white);
@@ -316,12 +317,12 @@ main {
   background-color: var(--charcoal);
 }
 
-.footer-logo{
+.footer-logo {
   width: 45px;
   margin-bottom: 20px;
 }
 
-.footer-social-links{
+.footer-social-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -332,4 +333,3 @@ main {
   font-size: 1.85rem;
   color: var(--white);
 }
-
