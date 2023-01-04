@@ -49,7 +49,7 @@ header {
   color: var(--white);
 }
 
-.hero-pp-container{
+.hero-pp-container {
   height: fit-content;
 }
 
@@ -265,10 +265,12 @@ main {
   margin: 0 auto;
 }
 
-.personal-contact-form input {
+.personal-contact-form input,
+.form-message {
   display: block;
   width: 100%;
   max-width: 400px;
+  resize: none;
   margin-bottom: 30px;
   border: none;
   color: var(--gray);
