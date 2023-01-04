@@ -296,9 +296,13 @@ main {
 .personal-contact-sendMsg-btn {
   text-decoration: none;
   color: var(--white);
+  font-family: "Space Grotesk", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   letter-spacing: 2px;
+  background-color: var(--charcoal);
+  border: none;
+  margin-top: 10px;
 }
 
 .personal-contact-sendMsg-btn u {
