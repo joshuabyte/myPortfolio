@@ -1,0 +1,63 @@
+.desktop-max-width {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.hero-info-container h1 {
+  width: 515px;
+  font-size: 6rem;
+}
+
+.hero-info-container .hero-description {
+  max-width: 390px;
+}
+
+.pp-image {
+    width: 320px;
+}
+
+.project-card .project-image {
+  width: 385px;
+}
+
+.projects-grid-container {
+  grid-template-columns: repeat(auto-fill, 350px);
+}
+
+.project-card .project-image {
+    width: 350px;
+}
+
+.personal-contact-title {
+  text-align: left;
+}
+
+.personal-contact-form {
+  text-align: right;
+}
+
+.personal-contact-flex {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.personal-contact-form {
+  margin: 0;
+  width: 400px;
+  padding-top: 0;
+}
+
+.personal-contact-title h2 {
+  font-size: 6rem;
+}
+
+.personal-contact .separation-line-contact {
+  margin-top: 55px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

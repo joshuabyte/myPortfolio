@@ -11,6 +11,11 @@
       href="styles/tablet.css"
       media="(min-width: 768px)"
     />
+    <link
+      rel="stylesheet"
+      href="styles/desktop.css"
+      media="(min-width: 1024px)"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,162 +29,169 @@
     ></script>
   </head>
   <body>
-    <header id="header">
-      <nav class="navbar-container">
-        <a href="index.html">
-          <img
-            class="header-logo"
-            src="assets/logos/josh-torri-logo.svg"
-            alt=""
-          />
-        </a>
-        <div class="nav-social-links">
-          <a href=""><i class="fa-brands fa-github"></i></a>
-          <a href=""><i class="fa-brands fa-youtube"></i></a>
-          <a href=""><i class="fa-brands fa-linkedin"></i></a>
-          <a href=""><i class="fa-brands fa-twitter"></i></a>
+    <div class="desktop-max-width">
+      <header id="header">
+        <nav class="navbar-container">
+          <a href="index.html">
+            <img
+              class="header-logo"
+              src="assets/logos/josh-torri-logo.svg"
+              alt=""
+            />
+          </a>
+          <div class="nav-social-links">
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </nav>
+        <div class="header-hero-container">
+          <div class="hero-pp-container">
+            <img class="pp-image" src="assets/images/pp-mobile.png" alt="" />
+          </div>
+          <div class="hero-info-container">
+            <h1>Nice to meet you! I'm <u>Edgar Torres.</u></h1>
+            <p class="hero-description">
+              Based in El Salvador, I'm a front-end developer passionate about
+              building accesible web apps that users love.
+            </p>
+            <a class="contact-cta-btn" href="#contact"><u>CONTACT ME</u></a>
+          </div>
         </div>
-      </nav>
-      <div class="header-hero-container">
-        <div class="hero-pp-container">
-          <img class="pp-image" src="assets/images/pp-mobile.png" alt="" />
-        </div>
-        <div class="hero-info-container">
-          <h1>Nice to meet you! I'm <u>Edgar Torres.</u></h1>
-          <p class="hero-description">
-            Based in El Salvador, I'm a front-end developer passionate about
-            building accesible web apps that users love.
-          </p>
-          <a class="contact-cta-btn" href="#contact"><u>CONTACT ME</u></a>
-        </div>
-      </div>
-    </header>
+      </header>
+    </div>
 
     <main>
-      <section class="experience">
-        <div class="separation-line"></div>
-        <div class="experience-grid-container">
-          <div class="experience-tool-container">
-            <i class="fa-brands fa-html5"></i>
-            <h3>HTML</h3>
-            <p>Junior Level</p>
+      <div class="desktop-max-width">
+        <section class="experience">
+          <div class="separation-line"></div>
+          <div class="experience-grid-container">
+            <div class="experience-tool-container">
+              <i class="fa-brands fa-html5"></i>
+              <h3>HTML</h3>
+              <p>Junior Level</p>
+            </div>
+            <div class="experience-tool-container">
+              <i class="fa-brands fa-css3-alt"></i>
+              <h3>CSS</h3>
+              <p>Junior Level</p>
+            </div>
+            <div class="experience-tool-container">
+              <i class="fa-brands fa-square-js"></i>
+              <h3>JAVASCRIPT</h3>
+              <p>Junior Level</p>
+            </div>
+            <div class="experience-tool-container">
+              <i class="fa-brands fa-react"></i>
+              <h3>REACT</h3>
+              <p>Junior Level</p>
+            </div>
           </div>
-          <div class="experience-tool-container">
-            <i class="fa-brands fa-css3-alt"></i>
-            <h3>CSS</h3>
-            <p>Junior Level</p>
+          <div class="separation-line-experience"></div>
+        </section>
+  
+        <section class="projects">
+          <div class="projects-title-container">
+            <h2>Projects</h2>
+            <a class="contact-cta-btn" href="#contact"><u>CONTACT ME</u></a>
           </div>
-          <div class="experience-tool-container">
-            <i class="fa-brands fa-square-js"></i>
-            <h3>JAVASCRIPT</h3>
-            <p>Junior Level</p>
+  
+          <div class="projects-grid-container">
+            <div class="project-card">
+              <img class="project-image" src="assets/images/my-blog.jpg" alt="" />
+              <h3>PERSONAL BLOG SITE</h3>
+              <p>HTML&nbsp;&nbsp;&nbsp;CSS</p>
+              <a class="project-view-site project-cta-btn" href=""
+                ><u>VIEW PROJECT</u></a
+              >
+              <a class="project-view-code project-cta-btn" href=""
+                ><u>VIEW CODE</u></a
+              >
+            </div>
+            <div class="project-card">
+              <img
+                class="project-image"
+                src="assets/images/batatabit.jpg"
+                alt=""
+              />
+              <h3>CRYPTO LANDING PAGE</h3>
+              <p>HTML&nbsp;&nbsp;&nbsp;CSS</p>
+              <a class="project-view-site project-cta-btn" href=""
+                ><u>VIEW PROJECT</u></a
+              >
+              <a class="project-view-code project-cta-btn" href=""
+                ><u>VIEW CODE</u></a
+              >
+            </div>
+            <div class="project-card">
+              <img class="project-image" src="assets/images/huddle.jpg" alt="" />
+              <h3>MESSAGING LANDING PAGE</h3>
+              <p>HTML&nbsp;&nbsp;&nbsp;CSS</p>
+              <a class="project-view-site project-cta-btn" href=""
+                ><u>VIEW PROJECT</u></a
+              >
+              <a class="project-view-code project-cta-btn" href=""
+                ><u>VIEW CODE</u></a
+              >
+            </div>
+            <div class="project-card">
+              <img class="project-image" src="assets/images/snap.jpg" alt="" />
+              <h3>HRM LANDING PAGE</h3>
+              <p>HTML&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;JAVASCRIPT</p>
+              <a class="project-view-site project-cta-btn" href=""
+                ><u>VIEW PROJECT</u></a
+              >
+              <a class="project-view-code project-cta-btn" href=""
+                ><u>VIEW CODE</u></a
+              >
+            </div>
+            <div class="project-card">
+              <img
+                class="project-image"
+                src="assets/images/yard-sale.jpg"
+                alt=""
+              />
+              <h3>E-COMMERCE REACT PAGE</h3>
+              <p>REACT&nbsp;&nbsp;&nbsp;SASS</p>
+              <a class="project-view-site project-cta-btn" href=""
+                ><u>VIEW PROJECT</u></a
+              >
+              <a class="project-view-code project-cta-btn" href=""
+                ><u>VIEW CODE</u></a
+              >
+            </div>
           </div>
-          <div class="experience-tool-container">
-            <i class="fa-brands fa-react"></i>
-            <h3>REACT</h3>
-            <p>Junior Level</p>
-          </div>
-        </div>
-        <div class="separation-line-experience"></div>
-      </section>
-
-      <section class="projects">
-        <div class="projects-title-container">
-          <h2>Projects</h2>
-          <a class="contact-cta-btn" href="#contact"><u>CONTACT ME</u></a>
-        </div>
-
-        <div class="projects-grid-container">
-          <div class="project-card">
-            <img class="project-image" src="assets/images/my-blog.jpg" alt="" />
-            <h3>PERSONAL BLOG SITE</h3>
-            <p>HTML&nbsp;&nbsp;&nbsp;CSS</p>
-            <a class="project-view-site project-cta-btn" href=""
-              ><u>VIEW PROJECT</u></a
-            >
-            <a class="project-view-code project-cta-btn" href=""
-              ><u>VIEW CODE</u></a
-            >
-          </div>
-          <div class="project-card">
-            <img
-              class="project-image"
-              src="assets/images/batatabit.jpg"
-              alt=""
-            />
-            <h3>CRYPTO LANDING PAGE</h3>
-            <p>HTML&nbsp;&nbsp;&nbsp;CSS</p>
-            <a class="project-view-site project-cta-btn" href=""
-              ><u>VIEW PROJECT</u></a
-            >
-            <a class="project-view-code project-cta-btn" href=""
-              ><u>VIEW CODE</u></a
-            >
-          </div>
-          <div class="project-card">
-            <img class="project-image" src="assets/images/huddle.jpg" alt="" />
-            <h3>MESSAGING LANDING PAGE</h3>
-            <p>HTML&nbsp;&nbsp;&nbsp;CSS</p>
-            <a class="project-view-site project-cta-btn" href=""
-              ><u>VIEW PROJECT</u></a
-            >
-            <a class="project-view-code project-cta-btn" href=""
-              ><u>VIEW CODE</u></a
-            >
-          </div>
-          <div class="project-card">
-            <img class="project-image" src="assets/images/snap.jpg" alt="" />
-            <h3>HRM LANDING PAGE</h3>
-            <p>HTML&nbsp;&nbsp;&nbsp;CSS&nbsp;&nbsp;&nbsp;JAVASCRIPT</p>
-            <a class="project-view-site project-cta-btn" href=""
-              ><u>VIEW PROJECT</u></a
-            >
-            <a class="project-view-code project-cta-btn" href=""
-              ><u>VIEW CODE</u></a
-            >
-          </div>
-          <div class="project-card">
-            <img
-              class="project-image"
-              src="assets/images/yard-sale.jpg"
-              alt=""
-            />
-            <h3>E-COMMERCE REACT PAGE</h3>
-            <p>REACT&nbsp;&nbsp;&nbsp;SASS</p>
-            <a class="project-view-site project-cta-btn" href=""
-              ><u>VIEW PROJECT</u></a
-            >
-            <a class="project-view-code project-cta-btn" href=""
-              ><u>VIEW CODE</u></a
-            >
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       <section id="contact" class="personal-contact">
-        <div class="personal-contact-title">
-          <h2>Contact</h2>
-          <p>
-            I would love to hear about your project and how I could help. Please
-            fill in the form, and I'll get back to you as soon as possible.
-          </p>
+        <div class="personal-contact-flex">
+          <div class="personal-contact-title">
+            <h2>Contact</h2>
+            <p>
+              I would love to hear about your project and how I could help.
+              Please fill in the form, and I'll get back to you as soon as
+              possible.
+            </p>
+          </div>
+          <form class="personal-contact-form" action="">
+            <input class="form-name" placeholder="NAME" type="text" />
+            <input class="form-email" placeholder="EMAIL" type="text" />
+            <textarea
+              class="form-message"
+              placeholder="MESSAGE"
+              name=""
+              id=""
+              cols="30"
+              rows="3"
+            ></textarea>
+            <!-- <input class="form-message" placeholder="MESSAGE" type="text" /> -->
+            <button class="personal-contact-sendMsg-btn" type="submit">
+              <u>SEND MESSAGE</u>
+            </button>
+          </form>
         </div>
-        <form class="personal-contact-form" action="">
-          <input class="form-name" placeholder="NAME" type="text" />
-          <input class="form-email" placeholder="EMAIL" type="text" />
-          <textarea
-            class="form-message"
-            placeholder="MESSAGE"
-            name=""
-            id=""
-            cols="30"
-            rows="3"
-          ></textarea>
-          <!-- <input class="form-message" placeholder="MESSAGE" type="text" /> -->
-          <button class="personal-contact-sendMsg-btn" type="submit">
-            <u>SEND MESSAGE</u>
-          </button>
-        </form>
         <div class="separation-line-contact"></div>
       </section>
     </main>
