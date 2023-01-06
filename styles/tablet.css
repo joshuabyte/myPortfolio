@@ -20,6 +20,7 @@ header {
 .header-hero-container {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-around;
 }
 
 .pp-image {
@@ -29,7 +30,7 @@ header {
 .hero-info-container {
   text-align: start;
   margin: 0;
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 
 .hero-info-container h1 {
