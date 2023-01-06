@@ -271,18 +271,34 @@
               possible.
             </p>
           </div>
-          <form class="personal-contact-form" action="">
-            <input class="form-name" placeholder="NAME" type="text" />
-            <input class="form-email" placeholder="EMAIL" type="text" />
+          <form
+            class="personal-contact-form"
+            action="https://formspree.io/f/mzbqbvkr"
+            method="POST"
+          >
+            <input
+              name="Name"
+              class="form-name"
+              placeholder="NAME"
+              type="text"
+              required
+            />
+            <input
+              name="Email"
+              class="form-email"
+              placeholder="EMAIL"
+              type="email"
+              required
+            />
             <textarea
               class="form-message"
               placeholder="MESSAGE"
-              name=""
+              name="Message"
               id=""
               cols="30"
               rows="3"
+              required
             ></textarea>
-            <!-- <input class="form-message" placeholder="MESSAGE" type="text" /> -->
             <button class="personal-contact-sendMsg-btn" type="submit">
               <u>SEND MESSAGE</u>
             </button>
