@@ -140,7 +140,7 @@ main {
 .experience-grid-container {
   max-width: 800px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 180px);
+  grid-template-columns: repeat(auto-fill, 125px);
   gap: 25px;
   place-content: center;
   place-items: center;
